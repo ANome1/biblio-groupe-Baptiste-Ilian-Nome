@@ -50,3 +50,43 @@ Exécutez les commandes depuis le dossier du projet.
 
 ## Exemples
 
+Afficher le catalogue :
+
+```bash
+python biblio.py livres
+```
+
+Rechercher les livres dont le titre contient « harry » :
+
+```bash
+python biblio.py chercher harry
+```
+
+Enregistrer un emprunt :
+
+```bash
+python biblio.py emprunter "Le Petit Prince" Alice
+```
+
+Enregistrer un retour :
+
+```bash
+python biblio.py rendre "Le Petit Prince"
+```
+
+Afficher les retards :
+
+```bash
+python biblio.py retards
+```
+
+## Réinitialiser les données
+
+Pour revenir aux données de démonstration, relancez :
+
+```bash
+python biblio.py init
+```
+
+> Cette commande réinitialise les données existantes.
+
