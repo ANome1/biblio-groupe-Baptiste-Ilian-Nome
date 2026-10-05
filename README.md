@@ -36,5 +36,14 @@ Base initialisee : 6 livres, 3 membres.
 
 Exécutez les commandes depuis le dossier du projet.
 
+| Commande | Description |
+| --- | --- |
+| `python biblio.py init` | Remet les données de départ. |
+| `python biblio.py livres` | Liste tous les livres, disponibles ou empruntés. |
+| `python biblio.py chercher <texte>` | Recherche un livre par titre. |
+| `python biblio.py emprunter <livre> <membre>` | Enregistre l’emprunt d’un livre par un membre. |
+| `python biblio.py rendre <livre>` | Enregistre le retour d’un livre. |
+| `python biblio.py retards` | Liste les livres empruntés depuis plus de 14 jours et non rendus.
+
 ## Exemples
 
