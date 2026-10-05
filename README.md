@@ -1,5 +1,5 @@
 # Biblio
-
+Une petite application en ligne de commande pour gérer une bibliothèque : consulter le catalogue, rechercher un livre, enregistrer les emprunts et retours, et repérer les retards.
 
 ## Prérequis
 
