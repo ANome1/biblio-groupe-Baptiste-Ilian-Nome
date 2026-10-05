@@ -3,6 +3,9 @@ Une petite application en ligne de commande pour gérer une bibliothèque : cons
 
 ## Prérequis
 
+| Python | 3.8 ou supérieur | `python --version` | linux : sudo apt isntall python3 | Windows : winget install -e --id Python.Python.3.12 | 
+| MacOs : brew install python |
+| SQLite (module `sqlite3`) | inclus avec Python | `python -c "import sqlite3; print(sqlite3.sqlite_version)"` |
 
 
 ## Installation
